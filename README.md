@@ -50,8 +50,9 @@ Descarga transferida: <code>Descarga + número de operación + transferido</code
 
 - Cambiar datos bancarios para pasos de transferencia: <code>Banco + cbu + alias + nombre de cuenta</code>
 
-### IDENTIFICAR ERRORES Y REPORTE
+<hr>
 
+### IDENTIFICAR ERRORES Y REPORTE
 
 Este apartado ha sido simplificado de manera que se puedan identificar de manera rápida y efectiva los errores y ver el estado del software accediendo al canal de WhatsApp en el cual Sofía enviará estos reportes.
 
