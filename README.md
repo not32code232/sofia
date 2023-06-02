@@ -6,6 +6,7 @@
 
 - [STACK TECNOLOGICO](#stack-tecnologico)
 - [COMANDOS ADMINISTRADOR](#comandos-administrador)
+- [IDENTIFICAR ERRORES Y REPORTE](#identificar-errores-y-reporte)
 
 <hr>
 
