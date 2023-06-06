@@ -88,28 +88,28 @@ Si deseamos corregir algún error o simplemente acceder al código para verifica
 ### ROL ADMINISTRADOR
 
 El rol del administrador se define por sus tareas y responsabilidades las cuales seran:
-- Confirmar cargas
-- Confirmar descargas
-- Atencion al cliente
-- Acceso a reportes
+- Confirmar cargas.
+- Confirmar descargas.
+- Atencion al cliente.
+- Acceso a reportes.
 
 Cada una de estas responsabilidades corresponde a un canal en donde Sofia enviara mensajes dando aviso, estos canales son solo de lectura, para confirmar o realizar alguna accion con respecto a estos canales de avisos, **se debera comunicar con Sofia utilizando los comandos para administrador que mencionamos en esta documentación**.
 
 Las vistas de los canales seran del tipo:
 
-- Confirmar cargas
+- Confirmar cargas:
 
 <img width="320" alt="Screenshot 2023-06-06 at 09 02 30" src="https://github.com/not32code232/sofia/assets/134972894/7680b729-f01a-4b1e-a2db-22389e27e523">
 
-- Confirmar descargas
+- Confirmar descargas:
 
 <img width="320" alt="Screenshot 2023-06-06 at 09 05 17" src="https://github.com/not32code232/sofia/assets/134972894/84265f0c-0f97-40b7-8d9c-0fffa35ad5bc">
 
-- Atencion al cliente
+- Atencion al cliente:
 
 <img width="320" alt="Screenshot 2023-06-06 at 09 04 32" src="https://github.com/not32code232/sofia/assets/134972894/d1391f19-bce3-40da-aab1-7d5d8e0e56db">
 
-- Acceso a reportes
+- Acceso a reportes:
 
 <img width="320" alt="Screenshot 2023-06-06 at 09 06 25" src="https://github.com/not32code232/sofia/assets/134972894/4004e8e2-4aef-42b7-89a4-0770bf72faff">
 
