@@ -2,6 +2,12 @@
 
 <hr>
 
+### SOLUCION
+
+Automarizar el proceso que se realiza entre el jugador, cajero y plataforma acelerando los tiempos de respuesta y eliminando la interaccion por parte del cajero al máximo nivel.
+
+<hr>
+
 ### INDICE
 
 - [FLUJO COMPLETO](#flujo-completo)
@@ -14,6 +20,8 @@
 ### FLUJO COMPLETO
 
 ![flujoCompletoSofia](https://github.com/not32code232/sofia/assets/134972894/133b27c3-3733-47f1-805e-9a6fd281e85d)
+
+<hr>
 
 ### STACK TECNOLOGICO
 
@@ -62,7 +70,7 @@ Descarga transferida: <code>Descarga + número de operación + transferido</code
 
 Este apartado ha sido simplificado de manera que se puedan identificar de manera rápida y efectiva los errores y ver el estado del software accediendo al canal de WhatsApp en el cual Sofía enviará estos reportes.
 
-Funcionalidad y uso:
+**Funcionalidad y uso:**
 
 Sofia a medida que va realizando sus acciones, desde leer el chat, hasta cumplir con lo que el jugador o administrador solicitó, cada que ingresa a una nueva funcionalidad va registrando en que proceso / funcionalidad se encuentra. Si en el mismo proceso ha sucedido algún tipo de error, se registra este y se devuelve en el canal de WhatsApp con el detalle de cuál fue el último proceso que se realizó para poder ubicarlo dentro del código y realizar correcciones de ser necesarias.
 
