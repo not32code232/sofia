@@ -4,11 +4,16 @@
 
 ### INDICE
 
+- [FLUJO COMPLETO](#flujo-completo)
 - [STACK TECNOLOGICO](#stack-tecnologico)
 - [COMANDOS ADMINISTRADOR](#comandos-administrador)
 - [IDENTIFICAR ERRORES Y REPORTE](#identificar-errores-y-reporte)
 
 <hr>
+
+### FLUJO COMPLETO
+
+![flujoCompletoSofia](https://github.com/not32code232/sofia/assets/134972894/133b27c3-3733-47f1-805e-9a6fd281e85d)
 
 ### STACK TECNOLOGICO
 
