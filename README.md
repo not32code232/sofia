@@ -1,4 +1,4 @@
-### SOFIA BOT
+### SOFIA BOT DOC
 
 <hr>
 
@@ -14,6 +14,9 @@ Automarizar el proceso que se realiza entre el jugador, cajero y plataforma acel
 - [STACK TECNOLOGICO](#stack-tecnologico)
 - [COMANDOS ADMINISTRADOR](#comandos-administrador)
 - [IDENTIFICAR ERRORES Y REPORTE](#identificar-errores-y-reporte)
+- [ROL PROPIETARIO](#rol-propietario)
+- [ROL ADMINISTRADOR](#rol-administrador)
+- [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto)
 
 <hr>
 
@@ -74,6 +77,18 @@ Este apartado ha sido simplificado de manera que se puedan identificar de manera
 
 Sofia a medida que va realizando sus acciones, desde leer el chat, hasta cumplir con lo que el jugador o administrador solicitó, cada que ingresa a una nueva funcionalidad va registrando en que proceso / funcionalidad se encuentra. Si en el mismo proceso ha sucedido algún tipo de error, se registra este y se devuelve en el canal de WhatsApp con el detalle de cuál fue el último proceso que se realizó para poder ubicarlo dentro del código y realizar correcciones de ser necesarias.
 
-
 Si deseamos corregir algún error o simplemente acceder al código para verificar su funcionamiento o causa del error, debemos abrir nuestro proyecto en el editor de preferencia y buscar en el proyecto el nombre de la función que ha generado ese error, el cual nos llevara a donde se encuentra toda la lógica de ese proceso y verificar o corregir lo que debamos.
 
+<hr>
+
+### ROL PROPIETARIO
+
+<hr>
+
+### ROL ADMINISTRADOR
+
+<hr>
+
+### PROCESO LEVANTAR Y CORRER PROYECTO
+
+<hr>
