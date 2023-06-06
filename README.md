@@ -30,12 +30,13 @@ Automarizar el proceso que se realiza entre el jugador, cajero y plataforma acel
 
 El proyecto se construye utilizando las siguientes tecnologías:
 
-- Python
-- Selenium
-- PyAutoGUI
-- XAMPP MySQL
-- Pandas
-- Numpy
+- [Python](https://www.python.org/)
+- [Selenium](https://www.selenium.dev/)
+- [PyAutoGUI](https://pypi.org/project/PyAutoGUI/)
+- [XAMPP](https://www.apachefriends.org/index.html)
+- [MySQL](https://www.mysql.com/)
+- [Pandas](https://pandas.pydata.org/)
+- [Numpy](https://numpy.org/)
 
 Conociendo las bases de cada una de estas podremos desarrollar, corregir o modificar el mismo con mayor entendimiento. Para este entendimiento se debe tener en cuenta el flujo general.
 
@@ -83,17 +84,23 @@ Si deseamos corregir algún error o simplemente acceder al código para verifica
 
 ### ROL PROPIETARIO
 
+El rol del propietario se define por sus tareas y responsabilidades las cuales son:
+- Configurar entorno de trabajo. 
+- Delegrar y controlar los permisos de inicio para Administrador.
+
+Detalles de como hacer esto en [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto).
+
 <hr>
 
 ### ROL ADMINISTRADOR
 
-El rol del administrador se define por sus tareas y responsabilidades las cuales seran:
+El rol del administrador se define por sus tareas y responsabilidades las cuales son:
 - Confirmar cargas.
 - Confirmar descargas.
 - Atencion al cliente.
 - Acceso a reportes.
 
-Cada una de estas responsabilidades corresponde a un canal en donde Sofia enviara mensajes dando aviso, estos canales son solo de lectura, para confirmar o realizar alguna accion con respecto a estos canales de avisos, **se debera comunicar con Sofia utilizando los comandos para administrador que mencionamos en esta documentación**.
+Cada una de estas responsabilidades corresponde a un canal en donde Sofia enviara mensajes dando aviso, estos canales son solo de lectura, para confirmar o realizar alguna accion con respecto a estos canales de avisos, **se debera comunicar con Sofia utilizando los [COMANDOS ADMINISTRADOR](#comandos-administrador)**.
 
 Las vistas de los canales seran del tipo:
 
@@ -134,11 +141,13 @@ Las vistas de los canales seran del tipo:
 
 <img width="500" alt="Screenshot 2023-06-05 at 22 40 51" src="https://github.com/not32code232/sofia/assets/134972894/b0a8ae7a-c9f0-4d2f-90ad-6841f7e9a806">
 
-5. Una vez instalado XAMPP lo iniciamos y damos a <code>start</code> a MySQL.
+5. Una vez instalado XAMPP lo iniciamos y damos a <code>start</code> a <code>Apache</code> y <code>MySQL</code>.
 
-<img width="500" alt="Screenshot 2023-06-05 at 22 41 54" src="https://github.com/not32code232/sofia/assets/134972894/d10e7039-6b20-46af-8782-c33677a508bf">
+<img width="500" alt="Screenshot 2023-06-06 at 10 33 55" src="https://github.com/not32code232/sofia/assets/134972894/fcf8f289-9f7a-4907-8df4-fb56f1017e3c">
 
-6. Ingresamos dentro del navegador a la ruta <code>localhost/phpmyadmin</code> en donde nos llevará al panel de administrador de la base de datos PHP, en esta deberemos importar el archivo que se encuentra dentro de la carpeta <code>resource</code> con la extensión de .sql.
+6. Ingresamos dentro del navegador a la ruta <code>localhost/phpmyadmin</code> en donde nos llevará al panel de administrador de la base de datos PHP, en esta deberemos importar el archivo que se encuentra dentro de la carpeta <code>resource</code> con la extensión de <code>.sql</code>.
+
+<img width="500" alt="Screenshot 2023-06-06 at 10 45 14" src="https://github.com/not32code232/sofia/assets/134972894/2a443d11-e2a8-4ec8-8b00-a2417ea9697b">
 
 7. Descomprimimos nuestra carpeta del proyecto dejándola disponible en escritorio para facilitar el acceso.
 
@@ -154,7 +163,7 @@ Las vistas de los canales seran del tipo:
 
 <img width="500" alt="Screenshot 2023-06-06 at 08 43 06" src="https://github.com/not32code232/sofia/assets/134972894/44aab0f6-33b6-4fc2-ac00-bc078172f4f9"><br>
 
-<img width="500" alt="Screenshot 2023-06-06 at 08 43 55" src="https://github.com/not32code232/sofia/assets/134972894/bdfb25bd-dcc1-4798-afe6-2f3a5a1f96dc">
+<img width="500" alt="Screenshot 2023-06-06 at 08 43 55" src="https://github.com/not32code232/sofia/assets/134972894/bdfb25bd-dcc1-4798-afe6-2f3a5a1f96dc"><br>
 
 12. Una vez descargados los drivers los ubicamos a ambos en la carpeta <code>driver</code> del proyecto, cada uno con su nombre <code>chromedriver</code> y <code>edgedriver</code>.
 
