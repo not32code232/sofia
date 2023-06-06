@@ -4,7 +4,7 @@
 
 ### SOLUCION
 
-Automarizar el proceso que se realiza entre el jugador, cajero y plataforma acelerando los tiempos de respuesta y eliminando la interaccion por parte del cajero al máximo nivel.
+Automatizar el proceso que se realiza entre el jugador, cajero y plataforma acelerando los tiempos de respuesta y eliminando la interacción por parte del cajero al máximo nivel.
 
 <hr>
 
@@ -85,7 +85,7 @@ Si deseamos corregir algún error o simplemente acceder al código para verifica
 ### ROL PROPIETARIO
 
 El rol del propietario se define por sus tareas y responsabilidades las cuales son:
-- Configurar entorno de trabajo. 
+- Configurar el entorno de trabajo. 
 - Delegrar y controlar los permisos de inicio para Administrador.
 
 Detalles de como hacer esto en [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto).
@@ -97,12 +97,12 @@ Detalles de como hacer esto en [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-lev
 El rol del administrador se define por sus tareas y responsabilidades las cuales son:
 - Confirmar cargas.
 - Confirmar descargas.
-- Atencion al cliente.
+- Atención al cliente.
 - Acceso a reportes.
 
-Cada una de estas responsabilidades corresponde a un canal en donde Sofia enviara mensajes dando aviso, estos canales son solo de lectura, para confirmar o realizar alguna accion con respecto a estos canales de avisos, **se debera comunicar con Sofia utilizando los [COMANDOS ADMINISTRADOR](#comandos-administrador)**.
+Cada una de estas responsabilidades corresponde a un canal en donde Sofia enviara mensajes dando aviso, estos canales son solo de lectura, para confirmar o realizar alguna acción con respecto a estos canales de avisos, **se deberá comunicar con Sofia utilizando los [COMANDOS ADMINISTRADOR](#comandos-administrador)**.
 
-Las vistas de los canales seran del tipo:
+Las vistas de los canales serán del tipo:
 
 - Confirmar cargas:
 
@@ -112,7 +112,7 @@ Las vistas de los canales seran del tipo:
 
 <img width="320" alt="Screenshot 2023-06-06 at 09 05 17" src="https://github.com/not32code232/sofia/assets/134972894/84265f0c-0f97-40b7-8d9c-0fffa35ad5bc"><br>
 
-- Atencion al cliente:
+- Atención al cliente:
 
 <img width="320" alt="Screenshot 2023-06-06 at 09 04 32" src="https://github.com/not32code232/sofia/assets/134972894/d1391f19-bce3-40da-aab1-7d5d8e0e56db"><br>
 
