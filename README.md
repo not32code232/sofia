@@ -106,19 +106,19 @@ Las vistas de los canales seran del tipo:
 
 - Confirmar cargas:
 
-<img width="320" alt="Screenshot 2023-06-06 at 09 02 30" src="https://github.com/not32code232/sofia/assets/134972894/7680b729-f01a-4b1e-a2db-22389e27e523">
+<img width="320" alt="Screenshot 2023-06-06 at 09 02 30" src="https://github.com/not32code232/sofia/assets/134972894/7680b729-f01a-4b1e-a2db-22389e27e523"><br>
 
 - Confirmar descargas:
 
-<img width="320" alt="Screenshot 2023-06-06 at 09 05 17" src="https://github.com/not32code232/sofia/assets/134972894/84265f0c-0f97-40b7-8d9c-0fffa35ad5bc">
+<img width="320" alt="Screenshot 2023-06-06 at 09 05 17" src="https://github.com/not32code232/sofia/assets/134972894/84265f0c-0f97-40b7-8d9c-0fffa35ad5bc"><br>
 
 - Atencion al cliente:
 
-<img width="320" alt="Screenshot 2023-06-06 at 09 04 32" src="https://github.com/not32code232/sofia/assets/134972894/d1391f19-bce3-40da-aab1-7d5d8e0e56db">
+<img width="320" alt="Screenshot 2023-06-06 at 09 04 32" src="https://github.com/not32code232/sofia/assets/134972894/d1391f19-bce3-40da-aab1-7d5d8e0e56db"><br>
 
 - Acceso a reportes:
 
-<img width="320" alt="Screenshot 2023-06-06 at 09 06 25" src="https://github.com/not32code232/sofia/assets/134972894/4004e8e2-4aef-42b7-89a4-0770bf72faff">
+<img width="320" alt="Screenshot 2023-06-06 at 09 06 25" src="https://github.com/not32code232/sofia/assets/134972894/4004e8e2-4aef-42b7-89a4-0770bf72faff"><br>
 
 <hr>
 
@@ -139,21 +139,21 @@ Las vistas de los canales seran del tipo:
 
 4. Descargamos de la siguiente dirección [Apache Friends](https://www.apachefriends.org/index.html) la última versión de XAMPP para windows, esto nos permitirá tener nuestra base de datos corriendo.
 
-<img width="500" alt="Screenshot 2023-06-05 at 22 40 51" src="https://github.com/not32code232/sofia/assets/134972894/b0a8ae7a-c9f0-4d2f-90ad-6841f7e9a806">
+<img width="500" alt="Screenshot 2023-06-05 at 22 40 51" src="https://github.com/not32code232/sofia/assets/134972894/b0a8ae7a-c9f0-4d2f-90ad-6841f7e9a806"><br>
 
 5. Una vez instalado XAMPP lo iniciamos y damos a <code>start</code> a <code>Apache</code> y <code>MySQL</code>.
 
-<img width="500" alt="Screenshot 2023-06-06 at 10 33 55" src="https://github.com/not32code232/sofia/assets/134972894/fcf8f289-9f7a-4907-8df4-fb56f1017e3c">
+<img width="500" alt="Screenshot 2023-06-06 at 10 33 55" src="https://github.com/not32code232/sofia/assets/134972894/fcf8f289-9f7a-4907-8df4-fb56f1017e3c"><br>
 
 6. Ingresamos dentro del navegador a la ruta <code>localhost/phpmyadmin</code> en donde nos llevará al panel de administrador de la base de datos PHP, en esta deberemos importar el archivo que se encuentra dentro de la carpeta <code>resource</code> con la extensión de <code>.sql</code>.
 
-<img width="500" alt="Screenshot 2023-06-06 at 10 45 14" src="https://github.com/not32code232/sofia/assets/134972894/2a443d11-e2a8-4ec8-8b00-a2417ea9697b">
+<img width="500" alt="Screenshot 2023-06-06 at 10 45 14" src="https://github.com/not32code232/sofia/assets/134972894/2a443d11-e2a8-4ec8-8b00-a2417ea9697b"><br>
 
 7. Descomprimimos nuestra carpeta del proyecto dejándola disponible en escritorio para facilitar el acceso.
 
 8. Descargar e instalar el navegador Microsoft Edge ([Download Microsoft Edge](https://www.microsoft.com/en-us/edge/download)).
 
-<img width="500" alt="Screenshot 2023-06-06 at 08 41 00" src="https://github.com/not32code232/sofia/assets/134972894/5ef2eddd-e636-4969-9ebf-421608e1a0bd">
+<img width="500" alt="Screenshot 2023-06-06 at 08 41 00" src="https://github.com/not32code232/sofia/assets/134972894/5ef2eddd-e636-4969-9ebf-421608e1a0bd"><br>
 
 9. Descargar e instalar el navegador Google Chrome ([Google Chrome - Download the Fast, Secure Browser from Google](https://www.google.com/chrome/)).
 
@@ -177,10 +177,15 @@ Es importante que NO cerremos la consola el cual corrimos ese comando y NO cance
 **CASO PULPOBET:**
 
 15. Abrimos una nueva consola (terminal) ubicándonos nuevamente en la raíz del proyecto y corremos el archivo <code>main.py</code> con el comando <code>python main.py</code>. Con este se nos abrirá una ventana con la plataforma donde deberemos realizar lo siguiente:
-a. Habilitar vista de bloqueados.
-b. En la parte superior donde vemos las páginas, seleccionar modo vista con la mayor cantidad disponible, ejemplo 50.
-c. Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
-d. Dejamos en primer plano esta ventana en pantalla completa.
+
+- Habilitar vista de bloqueados.
+- En la parte superior donde vemos las páginas, seleccionar modo vista con la mayor cantidad disponible, ejemplo 50.
+- Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
+- Dejamos en primer plano esta ventana en pantalla completa.
+
+Quedandonos con una vista de la siguiente forma:
+
+<img width="500" alt="Screenshot 2023-06-06 at 10 58 21" src="https://github.com/not32code232/sofia/assets/134972894/9acd94a5-fb1d-46c7-a7fd-f8185af1b911"><br>
 
 16. ¡Listo para trabajar! Ahora solo queda hacer unas breves pruebas para comprobar que todo esté correctamente funcionando y ya podemos dejarlo corriendo. De lo contrario deberemos volver a los pasos o identificar el error para hacerlo que funcione.
 
