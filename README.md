@@ -106,11 +106,11 @@ Si deseamos corregir algún error o simplemente acceder al código para verifica
 
 4. Descargamos de la siguiente dirección [Apache Friends](https://www.apachefriends.org/index.html) la última versión de XAMPP para windows, esto nos permitirá tener nuestra base de datos corriendo.
 
-<img width="600" alt="Screenshot 2023-06-05 at 22 40 51" src="https://github.com/not32code232/sofia/assets/134972894/b0a8ae7a-c9f0-4d2f-90ad-6841f7e9a806">
+<img width="500" alt="Screenshot 2023-06-05 at 22 40 51" src="https://github.com/not32code232/sofia/assets/134972894/b0a8ae7a-c9f0-4d2f-90ad-6841f7e9a806">
 
 5. Una vez instalado XAMPP lo iniciamos y damos a <code>start</code> a MySQL.
 
-<img width="600" alt="Screenshot 2023-06-05 at 22 41 54" src="https://github.com/not32code232/sofia/assets/134972894/d10e7039-6b20-46af-8782-c33677a508bf">
+<img width="500" alt="Screenshot 2023-06-05 at 22 41 54" src="https://github.com/not32code232/sofia/assets/134972894/d10e7039-6b20-46af-8782-c33677a508bf">
 
 6. Ingresamos dentro del navegador a la ruta <code>localhost/phpmyadmin</code> en donde nos llevará al panel de administrador de la base de datos PHP, en esta deberemos importar el archivo que se encuentra dentro de la carpeta <code>resource</code> con la extensión de .sql.
 
@@ -118,13 +118,20 @@ Si deseamos corregir algún error o simplemente acceder al código para verifica
 
 8. Descargar e instalar el navegador Microsoft Edge ([Download Microsoft Edge](https://www.microsoft.com/en-us/edge/download)).
 
+<img width="500" alt="Screenshot 2023-06-06 at 08 41 00" src="https://github.com/not32code232/sofia/assets/134972894/5ef2eddd-e636-4969-9ebf-421608e1a0bd">
+
 9. Descargar e instalar el navegador Google Chrome ([Google Chrome - Download the Fast, Secure Browser from Google](https://www.google.com/chrome/)).
 
 10. Descargar Web Driver para Edge validando la versión y descargando el correspondiente a la misma, instructivo a detalle en página oficial: [Edge Webdriver](https://learn.microsoft.com/en-us/microsoft-edge/webdriver-chromium/?tabs=c-sharp#download-microsoft-edge-webdriver).
 
 11. Descargar Web Driver para Chrome validando la versión y descargando el correspondiente a la misma en [ChromeDriver](https://chromedriver.chromium.org/downloads), descargando la versión de windows disponible. Es importante validar su versión en ambos navegadores, esta información la veremos en detalles del navegador.
 
-12. Una vez descargados los drivers los ubicamos a ambos en la carpeta “driver” del proyecto, cada uno con su nombre <code>chromedriver</code> y <code>edgedriver</code>.
+<img width="500" alt="Screenshot 2023-06-06 at 08 43 06" src="https://github.com/not32code232/sofia/assets/134972894/44aab0f6-33b6-4fc2-ac00-bc078172f4f9">
+
+
+<img width="500" alt="Screenshot 2023-06-06 at 08 43 55" src="https://github.com/not32code232/sofia/assets/134972894/bdfb25bd-dcc1-4798-afe6-2f3a5a1f96dc">
+
+12. Una vez descargados los drivers los ubicamos a ambos en la carpeta <code>driver</code> del proyecto, cada uno con su nombre <code>chromedriver</code> y <code>edgedriver</code>.
 
 13. Abrir la terminal (cmd) y ubicarnos en la carpeta base donde tenemos el proyecto y correr el archivo <code>KeepSession.py</code> con el comando <code>python KeepSession.py</code>, esperamos a que se nos abra el Chrome y se cargue WhatsApp Web en donde tendremos que escanear para poder ingresar con el número que será el que reciba a los jugadores, administradores y envíe informes. 
 Es importante que NO cerremos la consola el cual corrimos ese comando y NO cancelamos el proceso. Una vez ingresado nuestro WhatsApp, dejar así tal cual sin tocar nada más ni ingresar a ningún chat.
