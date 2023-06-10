@@ -55,6 +55,18 @@ Conociendo las bases de cada una de estas podremos desarrollar, corregir o modif
 
 <hr>
 
+### ROL SUPERADMINISTRADOR / PROPIETARIO
+
+El rol del propietario se define por sus tareas y responsabilidades las cuales son:
+- Configurar el entorno de trabajo. 
+- Delegrar y controlar los permisos de inicio para Administrador.
+
+El propietario, a su vez posee comandos de **SUPERADMINISTRADOR y ADMINSTRADOR** para poder realizar y cumplir con sus responsbilidades sin restricciones por parte del software.
+
+Detalles de como hacer esto en [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto).
+
+<hr>
+
 ### COMANDOS ADMINISTRADOR
 
 **Aclaraciones:**
@@ -80,30 +92,6 @@ Descarga transferida: <code>Descarga + número de operación + transferido</code
 - Consultar fichas en panel de administrador: <code>Fichas panel</code>
 
 - Cambiar datos bancarios para pasos de transferencia: <code>Banco + cbu + alias + nombre de cuenta</code>
-
-<hr>
-
-### IDENTIFICAR ERRORES Y REPORTE
-
-Este apartado ha sido simplificado de manera que se puedan identificar de manera rápida y efectiva los errores y ver el estado del software accediendo al canal de WhatsApp en el cual Sofía enviará estos reportes.
-
-**Funcionalidad y uso:**
-
-Sofia a medida que va realizando sus acciones, desde leer el chat, hasta cumplir con lo que el jugador o administrador solicitó, cada que ingresa a una nueva funcionalidad va registrando en que proceso / funcionalidad se encuentra. Si en el mismo proceso ha sucedido algún tipo de error, se registra este y se devuelve en el canal de WhatsApp con el detalle de cuál fue el último proceso que se realizó para poder ubicarlo dentro del código y realizar correcciones de ser necesarias.
-
-Si deseamos corregir algún error o simplemente acceder al código para verificar su funcionamiento o causa del error, debemos abrir nuestro proyecto en el editor de preferencia y buscar en el proyecto el nombre de la función que ha generado ese error, el cual nos llevara a donde se encuentra toda la lógica de ese proceso y verificar o corregir lo que debamos.
-
-<hr>
-
-### ROL PROPIETARIO
-
-El rol del propietario se define por sus tareas y responsabilidades las cuales son:
-- Configurar el entorno de trabajo. 
-- Delegrar y controlar los permisos de inicio para Administrador.
-
-El propietario, a su vez posee comandos de **SUPERADMINISTRADOR y ADMINSTRADOR** para poder realizar y cumplir con sus responsbilidades sin restricciones por parte del software.
-
-Detalles de como hacer esto en [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto).
 
 <hr>
 
@@ -136,6 +124,34 @@ Las vistas de los canales serán del tipo:
 <img width="320" alt="Screenshot 2023-06-06 at 09 06 25" src="https://github.com/not32code232/sofia/assets/134972894/4004e8e2-4aef-42b7-89a4-0770bf72faff"><br>
 
 <hr>
+
+### IDENTIFICAR ERRORES Y REPORTE
+
+Este apartado ha sido simplificado de manera que se puedan identificar de manera rápida y efectiva los errores y ver el estado del software accediendo al canal de WhatsApp en el cual Sofía enviará estos reportes.
+
+**Funcionalidad y uso:**
+
+Sofia a medida que va realizando sus acciones, desde leer el chat, hasta cumplir con lo que el jugador o administrador solicitó, cada que ingresa a una nueva funcionalidad va registrando en que proceso / funcionalidad se encuentra. Si en el mismo proceso ha sucedido algún tipo de error, se registra este y se devuelve en el canal de WhatsApp con el detalle de cuál fue el último proceso que se realizó para poder ubicarlo dentro del código y realizar correcciones de ser necesarias.
+
+Si deseamos corregir algún error o simplemente acceder al código para verificar su funcionamiento o causa del error, debemos abrir nuestro proyecto en el editor de preferencia y buscar en el proyecto el nombre de la función que ha generado ese error, el cual nos llevara a donde se encuentra toda la lógica de ese proceso y verificar o corregir lo que debamos.
+
+<hr>
+
+### PERSONALIZACION DE MENSAJES
+
+Si deseamos personalizar uno o varios mensajes que realiza el software deberemos modificar estos directamente desde su código fuente. A continuación los pasos:
+
+1. En el caso de que tengamos el proyecto sin funcionar ni corriendo en su entorno, omitiremos este punto. De lo contrario si tenemos el proyecto funcionando deberemos finalizar todos los procesos **menos la base de datos**, a esto nos referimos con los procesos que tengamos corriendo como los <code>keepSession's</code> y <code>superMain</code>.
+
+3. Una vez finalizado todo los procesos menos el de la base de datos, deberemos ingresar en nuestra carpeta donde se aloja todo el código del proyecto y abrir el archivo <code>msjs.py</code>.
+
+5. En este archivo se encontrarán todos los mensajes que envía el software, para ubicar el que queremos modificar simplemente lo buscaremos en base al texto que tiene este.
+
+7. A la hora de editar solo lo haremos dentro de los **strings** ("") y **no** modificaremos nada aquello que se encuentre entre corchetes ({}), ejemplo <code>{fichas_a_retirar}</code> en donde en el se colocaran los datos que necesitamos mostrar, en el caso ejemplo, se mostrará dependiendo del caso, la cantidad de fichas por retirar. 
+
+Recordemos que podemos agregar negritas en nuestros mensajes con el doble asterisco entre la palabra u oración que deseemos hacerlo, ejemplo " ** texto en negrita ** ".
+
+**NO** está permitido usar emojis en estos mensajes, los mismos no funcionarán cuando se envíen estos.
 
 ### PROCESO LEVANTAR Y CORRER PROYECTO
 
@@ -207,19 +223,3 @@ Quedandonos con una vista de la siguiente forma:
 16. ¡Listo para trabajar! Ahora solo queda hacer unas breves pruebas para comprobar que todo esté correctamente funcionando y ya podemos dejarlo corriendo. De lo contrario deberemos volver a los pasos o identificar el error para hacerlo que funcione.
 
 <hr>
-
-### PERSONALIZACION DE MENSAJES
-
-Si deseamos personalizar uno o varios mensajes que realiza el software deberemos modificar estos directamente desde su código fuente. A continuación los pasos:
-
-1. En el caso de que tengamos el proyecto sin funcionar ni corriendo en su entorno, omitiremos este punto. De lo contrario si tenemos el proyecto funcionando deberemos finalizar todos los procesos **menos la base de datos**, a esto nos referimos con los procesos que tengamos corriendo como los <code>keepSession's</code> y <code>superMain</code>.
-
-3. Una vez finalizado todo los procesos menos el de la base de datos, deberemos ingresar en nuestra carpeta donde se aloja todo el código del proyecto y abrir el archivo <code>msjs.py</code>.
-
-5. En este archivo se encontrarán todos los mensajes que envía el software, para ubicar el que queremos modificar simplemente lo buscaremos en base al texto que tiene este.
-
-7. A la hora de editar solo lo haremos dentro de los **strings** ("") y **no** modificaremos nada aquello que se encuentre entre corchetes ({}), ejemplo <code>{fichas_a_retirar}</code> en donde en el se colocaran los datos que necesitamos mostrar, en el caso ejemplo, se mostrará dependiendo del caso, la cantidad de fichas por retirar. 
-
-Recordemos que podemos agregar negritas en nuestros mensajes con el doble asterisco entre la palabra u oración que deseemos hacerlo, ejemplo " ** texto en negrita ** ".
-
-**NO** está permitido usar emojis en estos mensajes, los mismos no funcionarán cuando se envíen estos.
