@@ -153,6 +153,8 @@ Recordemos que podemos agregar negritas en nuestros mensajes con el doble asteri
 
 **NO** está permitido usar emojis en estos mensajes, los mismos no funcionarán cuando se envíen estos.
 
+<hr>
+
 ### PROCESO LEVANTAR Y CORRER PROYECTO
 
 **Requerimientos previos para iniciar:**
@@ -221,5 +223,3 @@ Quedandonos con una vista de la siguiente forma:
 <img width="500" alt="Screenshot 2023-06-06 at 10 58 21" src="https://github.com/not32code232/sofia/assets/134972894/9acd94a5-fb1d-46c7-a7fd-f8185af1b911"><br>
 
 16. ¡Listo para trabajar! Ahora solo queda hacer unas breves pruebas para comprobar que todo esté correctamente funcionando y ya podemos dejarlo corriendo. De lo contrario deberemos volver a los pasos o identificar el error para hacerlo que funcione.
-
-<hr>
