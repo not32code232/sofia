@@ -159,13 +159,13 @@ Las vistas de los canales serán del tipo:
 
 <img width="500" alt="Screenshot 2023-06-06 at 10 33 55" src="https://github.com/not32code232/sofia/assets/134972894/fcf8f289-9f7a-4907-8df4-fb56f1017e3c"><br>
 
-**IMPORTANTE:** En lo que respecta a la importación que realizamos hacia la base de datos, este proceso se realizará una sola vez. Luego de esta importación podremos frenar y volver a iniciar la base de datos sin problema **pero no volver a importar la colección** ya que si realizamos esto perderemos todos nuestros datos.
+6. Descomprimimos nuestra carpeta del proyecto dejándola disponible en escritorio para facilitar el acceso.
 
-6. Ingresamos dentro del navegador a la ruta <code>localhost/phpmyadmin</code> en donde nos llevará al panel de administrador de la base de datos PHP, en esta deberemos importar el archivo que se encuentra dentro de la carpeta <code>resource</code> con la extensión de <code>.sql</code>.
+7. Ingresamos dentro del navegador a la ruta <code>localhost/phpmyadmin</code> en donde nos llevará al panel de administrador de la base de datos PHP, en esta deberemos importar el archivo que se encuentra dentro de la carpeta <code>resource</code> con la extensión de <code>.sql</code>.
 
 <img width="500" alt="Screenshot 2023-06-06 at 10 45 14" src="https://github.com/not32code232/sofia/assets/134972894/2a443d11-e2a8-4ec8-8b00-a2417ea9697b"><br>
 
-7. Descomprimimos nuestra carpeta del proyecto dejándola disponible en escritorio para facilitar el acceso.
+**IMPORTANTE:** En lo que respecta a la importación que realizamos hacia la base de datos, este proceso se realizará una sola vez. Luego de esta importación podremos frenar y volver a iniciar la base de datos sin problema **pero no volver a importar la colección** ya que si realizamos esto perderemos todos nuestros datos.
 
 8. Descargar e instalar el navegador Microsoft Edge ([Download Microsoft Edge](https://www.microsoft.com/en-us/edge/download)).
 
