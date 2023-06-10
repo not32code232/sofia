@@ -12,11 +12,13 @@ Automatizar el proceso que se realiza entre el jugador, cajero y plataforma acel
 
 - [FLUJO COMPLETO](#flujo-completo)
 - [STACK TECNOLOGICO](#stack-tecnologico)
+- [COMANDOS SUPERADMINISTRADOR (PROPIETARIO)](#comandos-superadministrador)
 - [COMANDOS ADMINISTRADOR](#comandos-administrador)
 - [IDENTIFICAR ERRORES Y REPORTE](#identificar-errores-y-reporte)
 - [ROL PROPIETARIO](#rol-propietario)
 - [ROL ADMINISTRADOR](#rol-administrador)
 - [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto)
+- [PERSONALIZACION DE MENSAJES](#personalizacion-de-mensajes)
 
 <hr>
 
@@ -39,6 +41,14 @@ El proyecto se construye utilizando las siguientes tecnologías:
 - [Numpy](https://numpy.org/)
 
 Conociendo las bases de cada una de estas podremos desarrollar, corregir o modificar el mismo con mayor entendimiento. Para este entendimiento se debe tener en cuenta el flujo general.
+
+<hr>
+
+### COMANDOS SUPERADMINISTRADOR (PROPIETARIO DE SOFTWARE)
+
+**Comandos:**
+
+- Cambiar número administrador: <code>Admin + +54 9 3523 41-1111</code>. El número que coloquemos **deberá escribirse TAL CUAL** figura el mismo en WhatsApp, incluyendo el signo más (+), los espacios y el guión.
 
 <hr>
 
@@ -87,6 +97,8 @@ Si deseamos corregir algún error o simplemente acceder al código para verifica
 El rol del propietario se define por sus tareas y responsabilidades las cuales son:
 - Configurar el entorno de trabajo. 
 - Delegrar y controlar los permisos de inicio para Administrador.
+
+El propietario, a su vez posee comandos de **SUPERADMINISTRADOR y ADMINSTRADOR** para poder realizar y cumplir con sus responsbilidades sin restricciones por parte del software.
 
 Detalles de como hacer esto en [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto).
 
@@ -188,3 +200,20 @@ Quedandonos con una vista de la siguiente forma:
 <img width="500" alt="Screenshot 2023-06-06 at 10 58 21" src="https://github.com/not32code232/sofia/assets/134972894/9acd94a5-fb1d-46c7-a7fd-f8185af1b911"><br>
 
 16. ¡Listo para trabajar! Ahora solo queda hacer unas breves pruebas para comprobar que todo esté correctamente funcionando y ya podemos dejarlo corriendo. De lo contrario deberemos volver a los pasos o identificar el error para hacerlo que funcione.
+
+<hr>
+
+### PERSONALIZACION DE MENSAJES
+
+Si deseamos personalizar uno o varios mensajes que realiza el software deberemos modificar estos directamente desde su código fuente. A continuación los pasos:
+
+1. En el caso de que tengamos el proyecto sin funcionar ni corriendo en su entorno, omitiremos este punto. De lo contrario si tenemos el proyecto funcionando deberemos finalizar todos los procesos **menos la base de datos**, a esto nos referimos con los procesos que tengamos corriendo como los <code>keepSession's</code> y <code>superMain</code>.
+
+3. Una vez finalizado todo los procesos menos el de la base de datos, deberemos ingresar en nuestra carpeta donde se aloja todo el código del proyecto y abrir el archivo <code>msjs.py</code>.
+
+5. En este archivo se encontrarán todos los mensajes que envía el software, para ubicar el que queremos modificar simplemente lo buscaremos en base al texto que tiene este.
+
+7. A la hora de editar solo lo haremos dentro de los **strings** ("") y **no** modificaremos nada aquello que se encuentre entre corchetes ({}), ejemplo <code>{fichas_a_retirar}</code> en donde en el se colocaran los datos que necesitamos mostrar, en el caso ejemplo, se mostrará dependiendo del caso, la cantidad de fichas por retirar. 
+
+Recordemos que podemos agregar negritas en nuestros mensajes con el doble asterisco entre la palabra u oración que deseemos hacerlo, ejemplo " ** texto en negrita ** ".
+**No** está permitido usar emojis en estos mensajes, los mismos no funcionarán cuando se envíen estos.
