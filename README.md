@@ -44,7 +44,9 @@ Conociendo las bases de cada una de estas podremos desarrollar, corregir o modif
 
 <hr>
 
-### COMANDOS SUPERADMINISTRADOR (PROPIETARIO DE SOFTWARE)
+### COMANDOS SUPERADMINISTRADOR
+
+**Recordemos** que el SUPERADMINISTRADOR es el propietario del proyecto.
 
 **Comandos:**
 
