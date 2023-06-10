@@ -170,10 +170,15 @@ Recordemos que podemos agregar negritas en nuestros mensajes con el doble asteri
 
 3. Descomprimimos nuestra carpeta del proyecto dejándola disponible en escritorio para facilitar el acceso.
 
-4. <p style="color:red;">Configuramos datos iniciales:</p>
+4. **<p style="color:red;">Configuramos datos iniciales:</p>** ------------------------------------------
 
 Para poder iniciar el proyecto correctamente, previamente necesitamos de ciertos datos iniciales los cuales agregaremos en el archivo que se encuentra dentro del proyecto con el nombre <code>config.py</code> donde veremos lo siguiente y **completaremos con nuestros datos aquello que se encuentre en negritas**:
 
+- num administrador
+- num superadministrador
+- usuario y contrasena panel plataforma
+- nombre de bot
+- datos de transferencia
 
 5. Descargamos de la siguiente dirección [Apache Friends](https://www.apachefriends.org/index.html) la última versión de XAMPP para windows, esto nos permitirá tener nuestra base de datos corriendo.
 
