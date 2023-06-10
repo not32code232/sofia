@@ -12,13 +12,14 @@ Automatizar el proceso que se realiza entre el jugador, cajero y plataforma acel
 
 - [FLUJO COMPLETO](#flujo-completo)
 - [STACK TECNOLOGICO](#stack-tecnologico)
-- [COMANDOS SUPERADMINISTRADOR (PROPIETARIO)](#comandos-superadministrador)
-- [COMANDOS ADMINISTRADOR](#comandos-administrador)
-- [IDENTIFICAR ERRORES Y REPORTE](#identificar-errores-y-reporte)
+- [COMANDOS SUPERADMINISTRADOR](#comandos-superadministrador)
 - [ROL PROPIETARIO](#rol-propietario)
+- [COMANDOS ADMINISTRADOR](#comandos-administrador)
 - [ROL ADMINISTRADOR](#rol-administrador)
-- [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto)
+- [IDENTIFICAR ERRORES Y REPORTE](#identificar-errores-y-reporte)
 - [PERSONALIZACION DE MENSAJES](#personalizacion-de-mensajes)
+- [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto)
+
 
 <hr>
 
@@ -56,13 +57,13 @@ Conociendo las bases de cada una de estas podremos desarrollar, corregir o modif
 
 ### COMANDOS ADMINISTRADOR
 
-**Aclaraciones de documento**
+**Aclaraciones:**
 
 Las palabras en negrita son palabras clave, por ende SIEMPRE se envían igual al momento de realizar el comando.
 Las palabras subrayadas NO siempre se envían igual, esto depende de la ocasión.
 Cuando el administrador envíe un comando SIEMPRE espere una respuesta antes de enviar otro.
 
-**Comandos**
+**Comandos:**
 
 - Carga:
 
@@ -221,4 +222,4 @@ Si deseamos personalizar uno o varios mensajes que realiza el software deberemos
 
 Recordemos que podemos agregar negritas en nuestros mensajes con el doble asterisco entre la palabra u oración que deseemos hacerlo, ejemplo " ** texto en negrita ** ".
 
-**No** está permitido usar emojis en estos mensajes, los mismos no funcionarán cuando se envíen estos.
+**NO** está permitido usar emojis en estos mensajes, los mismos no funcionarán cuando se envíen estos.
