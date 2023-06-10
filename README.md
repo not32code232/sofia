@@ -13,7 +13,7 @@ Automatizar el proceso que se realiza entre el jugador, cajero y plataforma acel
 - [FLUJO COMPLETO](#flujo-completo)
 - [STACK TECNOLOGICO](#stack-tecnologico)
 - [COMANDOS SUPERADMINISTRADOR](#comandos-superadministrador)
-- [ROL PROPIETARIO](#rol-propietario)
+- [ROL SUPERADMINISTRADOR / PROPIETARIO](#rol-superadministrador-/-propietario)
 - [COMANDOS ADMINISTRADOR](#comandos-administrador)
 - [ROL ADMINISTRADOR](#rol-administrador)
 - [IDENTIFICAR ERRORES Y REPORTE](#identificar-errores-y-reporte)
