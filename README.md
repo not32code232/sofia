@@ -25,7 +25,7 @@ Automatizar el proceso que se realiza entre el jugador, cajero y plataforma acel
 
 ### FLUJO COMPLETO
 
-![flujoCompletoSofia](https://github.com/not32code232/sofia/assets/134972894/133b27c3-3733-47f1-805e-9a6fd281e85d)
+![flujoCompletoSofia drawio](https://github.com/not32code232/sofia/assets/134972894/e1546c28-b116-40fd-9b27-f3abf3103310)
 
 <hr>
 
@@ -51,7 +51,7 @@ Conociendo las bases de cada una de estas podremos desarrollar, corregir o modif
 
 **Comandos:**
 
-- Cambiar número administrador: <code>Admin + +54 9 3523 41-1111</code>. El número que coloquemos **deberá escribirse TAL CUAL** figura el mismo en WhatsApp, incluyendo el signo más (+), los espacios y el guión.
+- Cambiar número administrador: <code>Admin + MUNERO DE WHATSAPP</code> un ejemplo de uson sería el siguiente <code>Admin +54 9 3523 41-1111</code>. El número que coloquemos **deberá escribirse TAL CUAL** figura el mismo en WhatsApp, incluyendo el signo más (+), los espacios y el guión.
 
 <hr>
 
