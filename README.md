@@ -18,6 +18,7 @@ Automatizar el proceso que se realiza entre el jugador, cajero y plataforma acel
 - [ROL ADMINISTRADOR](#rol-administrador)
 - [IDENTIFICAR ERRORES Y REPORTE](#identificar-errores-y-reporte)
 - [PERSONALIZACION DE MENSAJES](#personalizacion-de-mensajes)
+- [ACTUALIZAR CLASES WHATSAPP](#actualizar-clases-whatsapp)
 - [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto)
 
 
@@ -155,6 +156,10 @@ Recordemos que podemos agregar negritas en nuestros mensajes con el doble asteri
 
 <hr>
 
+### ACTUALIZAR CLASES WHATSAPP
+
+<hr>
+
 ### PROCESO LEVANTAR Y CORRER PROYECTO
 
 **Requerimientos previos para iniciar:**
@@ -221,7 +226,6 @@ Es importante que NO cerremos la consola el cual corrimos ese comando y NO cance
 
 15. Abrimos una nueva consola (terminal) ubicándonos nuevamente en la raíz del proyecto y corremos el archivo <code>main.py</code> con el comando <code>python main.py</code>. Con este se nos abrirá una ventana con la plataforma donde deberemos realizar lo siguiente:
 
-- Habilitar vista de bloqueados.
 - En la parte superior donde vemos las páginas, seleccionar modo vista con la mayor cantidad disponible, ejemplo 50.
 - Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
 - Dejamos en primer plano esta ventana en pantalla completa.
