@@ -80,19 +80,19 @@ Cuando el administrador envíe un comando SIEMPRE espere una respuesta antes de 
 
 - Carga:
 
-Cancelar carga: <code>Carga + número de operación + cancelar</code>
+Cancelar carga: <code>**Carga** + número de operación + cancelar</code>
 
-Carga recibida: <code>Carga + número de operación + recibido + monto</code>
+Carga recibida: <code>**Carga** + número de operación + recibido + monto</code>
 
 - Descarga:
 
-Cancelar descarga: <code>Descarga + número de operación + cancelar</code>
+Cancelar descarga: <code>**Descarga** + número de operación + cancelar</code>
 
-Descarga transferida: <code>Descarga + número de operación + transferido</code>
+Descarga transferida: <code>**Descarga** + número de operación + transferido</code>
 
-- Consultar fichas en panel de administrador: <code>Fichas panel</code>
+- Consultar fichas en panel de administrador: <code>**Fichas panel**</code>
 
-- Cambiar datos bancarios para pasos de transferencia: <code>Banco + cbu + alias + nombre de cuenta</code>
+- Cambiar datos bancarios para pasos de transferencia: <code>**Banco** + cbu + alias + nombre de cuenta</code>
 
 <hr>
 
