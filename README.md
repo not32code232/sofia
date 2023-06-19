@@ -156,7 +156,19 @@ Recordemos que podemos agregar negritas en nuestros mensajes con el doble asteri
 
 <hr>
 
+### SOLUCION A ELEMENTO NO ENCONTRADO
+
+que este es para todo lo que no sea recurrente, entonces es porque cambio algo de la plataforma, con la linea y viendo la funcion que nos dio en reporte sabremos ver que es, checkear la clase y el path para validar eso
+
 ### ACTUALIZAR CLASES WHATSAPP
+ESTO ES CUANDO ES RECURRENTE, DE LO CONTRARIO ES EN OTRO LUGAR
+debe checkear en las clases de whatsapp desde la web que sean las mismas que tenemos en referencia en archivo de clases referencia (crear este archivo)
+si alguna cambio, actualizar.
+si este apartado esta todo ok se debera cambiar el xpath que se utiliza en los archivos de wspp
+
+si en wsp
+
+
 
 <hr>
 
