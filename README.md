@@ -182,17 +182,17 @@ A continuación el nombre de la función y que elemento llama:
 
 Dentro de <code>wp.py</code>:
 
-- Función <code>leer_ultimo_mensaje(</code>, variable <code>element_box_message<code> tenemos la clase definida en <code>(By.CLASS_NAME, "ItfyB")</code> que equivale al elemento que vemos en la imagen.
+- Función <code>leer_ultimo_mensaje()</code>, variable <code>element_box_message</code> tenemos la clase definida en <code>(By.CLASS_NAME, "ItfyB")</code> que equivale al elemento que vemos en la imagen.
 
 <img width="100" alt="Screenshot 2023-06-20 at 16 26 57" src="https://github.com/not32code232/sofia/assets/134972894/6104b4a0-1e85-45ec-b76d-c21253d7154e">
 <br>
 
-- Función <code>leer_ultimo_mensaje()</code>, variable <code>element_message<code> tenemos la clase definida en <code>(By.CLASS_NAME, "_21Ahp")</code> que equivale al elemento que vemos en la imagen.
+- Función <code>leer_ultimo_mensaje()</code>, variable <code>element_message</code> tenemos la clase definida en <code>(By.CLASS_NAME, "_21Ahp")</code> que equivale al elemento que vemos en la imagen.
   
 <img width="298" alt="Screenshot 2023-06-20 at 16 39 30" src="https://github.com/not32code232/sofia/assets/134972894/1180e4fc-b67d-4146-90df-ef289be03cdd">
 <br>
 
-- Función <code>buscar_chat()</code>, variable <code>cancel<code> tenemos la clase definida en <code>(By.CLASS_NAME, "-Jnba")</code> que equivale al elemento que vemos en la imagen.
+- Función <code>buscar_chat()</code>, variable <code>cancel</code> tenemos la clase definida en <code>(By.CLASS_NAME, "-Jnba")</code> que equivale al elemento que vemos en la imagen.
   
 <img width="330" alt="Screenshot 2023-06-20 at 16 42 42" src="https://github.com/not32code232/sofia/assets/134972894/2cd94671-0b89-42d2-afeb-a012d82001b7">
 <br>
