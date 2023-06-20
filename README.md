@@ -128,13 +128,13 @@ Las vistas de los canales serán del tipo:
 
 ### IDENTIFICAR ERRORES Y REPORTE
 
-Este apartado ha sido simplificado de manera que se puedan identificar de manera rápida y efectiva los errores y ver el estado del software accediendo al canal de WhatsApp en el cual Sofía enviará estos reportes.
+Este apartado ha sido simplificado de manera que se puedan identificar de manera rápida y efectiva los errores y ver el estado del software accediendo al canal de WhatsApp en el cual Sofia enviará estas alertas. Los detalles de error y procesos de harán via email para mayor organización y proligidad.
 
 **Funcionalidad y uso:**
 
-Sofia a medida que va realizando sus acciones, desde leer el chat, hasta cumplir con lo que el jugador o administrador solicitó, cada que ingresa a una nueva funcionalidad va registrando en que proceso / funcionalidad se encuentra. Si en el mismo proceso ha sucedido algún tipo de error, se registra este y se devuelve en el canal de WhatsApp con el detalle de cuál fue el último proceso que se realizó para poder ubicarlo dentro del código y realizar correcciones de ser necesarias.
+Sofia a medida que va realizando sus acciones, desde leer el chat, hasta cumplir con lo que el jugador o administrador solicitó, cada que ingresa a una nueva funcionalidad va registrando en que proceso / funcionalidad se encuentra. Si en el mismo proceso ha sucedido algún tipo de error, se registra este y se devuelve una alerta en el canal de WhatsApp dando aviso y el detalle de cuál fue el último proceso que se realizó para poder ubicarlo dentro del código mediante via email (para mayor organización) y realizar correcciones de ser necesarias.
 
-Si deseamos corregir algún error o simplemente acceder al código para verificar su funcionamiento o causa del error, debemos abrir nuestro proyecto en el editor de preferencia y buscar en el proyecto el nombre de la función que ha generado ese error, el cual nos llevara a donde se encuentra toda la lógica de ese proceso y verificar o corregir lo que debamos.
+Si deseamos corregir algún error o simplemente acceder al código para verificar su funcionamiento o causa del error, debemos abrir nuestro proyecto en el editor de preferencia y buscar en el proyecto el nombre de la función o linea que ha generado ese error, el cual nos llevara a donde se encuentra toda la lógica de ese proceso y verificar o corregir lo que debamos.
 
 <hr>
 
@@ -158,17 +158,44 @@ Recordemos que podemos agregar negritas en nuestros mensajes con el doble asteri
 
 ### SOLUCION A ELEMENTO NO ENCONTRADO
 
-que este es para todo lo que no sea recurrente, entonces es porque cambio algo de la plataforma, con la linea y viendo la funcion que nos dio en reporte sabremos ver que es, checkear la clase y el path para validar eso
+**Aclaracion**
+Estas causas de error siempre provienen por el cambio de nombre de un elemento o modificación del mismo, ya sea desde la plataforma o del mismo WhatsApp web. 
+
+Este tipo de error puede llevar a dos causas:
+
+1 - Que WhatsApp haya cambiado sus clases en las cuales Sofía toma para ubicar los elementos desde el navegador.
+**Este error lo podemos identificar fácilmente** ya que cada vez que Sofia quiera acceder o leer los nuevos mensajes tendremos este error **de forma recurrente**.
+Si este es el caso, aplicaremos lo del apartado [ACTUALIZAR CLASES WHATSAPP](#actualizar-clases-whatsapp).
+
+2 - En base a lo anterior, teniendo en cuenta que **NO es recurrente** el error de elemento no encontrado, debemos verificar en los email que Sofia envía para chequear en qué proceso hemos tenido error, ya que este no es porque WhatsApp haya cambiado sus clases de los elementos, sino porque la plataforma ha cambiado de lugar un elemento que utiliza Sofía o ha renombrado uno de ellos.
+Si es este el caso, debemos verificar la clase o el xPath que tine el elemento que utilizamos en ese proceso para poder actualizar en donde sea necesario.
 
 ### ACTUALIZAR CLASES WHATSAPP
-ESTO ES CUANDO ES RECURRENTE, DE LO CONTRARIO ES EN OTRO LUGAR
-debe checkear en las clases de whatsapp desde la web que sean las mismas que tenemos en referencia en archivo de clases referencia (crear este archivo)
-si alguna cambio, actualizar.
-si este apartado esta todo ok se debera cambiar el xpath que se utiliza en los archivos de wspp
 
-si en wsp
+Para facilitar el proceso de actualización de las mismas se deja una referencia de dónde y qué clase corresponde actualmente a cada elemento que se utiliza desde WhatsApp para poder comprobar si ha cambiado alguna de estas. 
 
+**Estas clases de WhatsApp se encuentran sólo en los archivos <code>wp.py</code> y <code>wpEdge.py</code>**. Se sugiere ver de antemano el código para mayor entendimiento.
 
+De haber cambiado alguna de estas clases seguiremos con el proceso que explicaremos más adelante. 
+
+A continuación el nombre de la función y que elemento llama:
+
+Dentro de <code>wp.py</code>:
+
+- Función <code>leer_ultimo_mensaje(</code>, variable <code>element_box_message<code> tenemos la clase definida en <code>(By.CLASS_NAME, "ItfyB")</code> que equivale al elemento que vemos en la imagen.
+
+<img width="100" alt="Screenshot 2023-06-20 at 16 26 57" src="https://github.com/not32code232/sofia/assets/134972894/6104b4a0-1e85-45ec-b76d-c21253d7154e">
+<br>
+
+- Función <code>leer_ultimo_mensaje()</code>, variable <code>element_message<code> tenemos la clase definida en <code>(By.CLASS_NAME, "_21Ahp")</code> que equivale al elemento que vemos en la imagen.
+  
+<img width="298" alt="Screenshot 2023-06-20 at 16 39 30" src="https://github.com/not32code232/sofia/assets/134972894/1180e4fc-b67d-4146-90df-ef289be03cdd">
+<br>
+
+- Función <code>buscar_chat()</code>, variable <code>cancel<code> tenemos la clase definida en <code>(By.CLASS_NAME, "-Jnba")</code> que equivale al elemento que vemos en la imagen.
+  
+<img width="330" alt="Screenshot 2023-06-20 at 16 42 42" src="https://github.com/not32code232/sofia/assets/134972894/2cd94671-0b89-42d2-afeb-a012d82001b7">
+<br>
 
 <hr>
 
