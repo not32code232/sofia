@@ -18,6 +18,7 @@ Automatizar el proceso que se realiza entre el jugador, cajero y plataforma acel
 - [ROL ADMINISTRADOR](#rol-administrador)
 - [IDENTIFICAR ERRORES Y REPORTE](#identificar-errores-y-reporte)
 - [PERSONALIZACION DE MENSAJES](#personalizacion-de-mensajes)
+- [SOLUCION ELEMENTO NO ENCONTRADO](#solucion-elemento-no-encontrado)
 - [ACTUALIZAR CLASES WHATSAPP](#actualizar-clases-whatsapp)
 - [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto)
 
@@ -156,7 +157,7 @@ Recordemos que podemos agregar negritas en nuestros mensajes con el doble asteri
 
 <hr>
 
-### SOLUCION A ELEMENTO NO ENCONTRADO
+### SOLUCION ELEMENTO NO ENCONTRADO
 
 **Aclaracion**
 Estas causas de error siempre provienen por el cambio de nombre de un elemento o modificación del mismo, ya sea desde la plataforma o del mismo WhatsApp web. 
