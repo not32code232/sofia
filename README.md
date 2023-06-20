@@ -188,7 +188,7 @@ Dentro de <code>mani.py</code>:
 
 - Función <code>buscar_chats()</code>, variable <code>chats_nuevos</code> tenemos la clase definida en <code>(By.CLASS_NAME, "_21S-L")</code> que equivale al elemento que vemos en la imagen, el cual hace referencia a si existe un chat nuevo:
 
-<img width="59" alt="Screenshot 2023-06-20 at 16 26 57" src="https://github.com/not32code232/sofia/assets/134972894/e8d9f2ae-0219-4848-b3c2-d12a0b93fb70"><br>
+<img width="119" alt="Screenshot 2023-06-20 at 16 26 57" src="https://github.com/not32code232/sofia/assets/134972894/e8d9f2ae-0219-4848-b3c2-d12a0b93fb70"><br>
 
 - Función <code>buscar_chats()</code>, variable <code>chat_numero</code> tenemos la clase definida en <code>(By.CLASS_NAME, "_21S-L")</code> que equivale al elemento que vemos en la imagen, el cual es el numero del cual recibimos el mensaje:
 
