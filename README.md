@@ -180,25 +180,35 @@ De haber cambiado alguna de estas clases seguiremos con el proceso que explicare
 
 A continuación el nombre de la función y que elemento llama:
 
+Dentro de <code>mani.py</code>:
+
+- Función <code>buscar_chats()</code>, variable <code>chats</code> tenemos la clase definida en <code>(By.CLASS_NAME, "_8nE1Y")</code> que equivale al elemento que vemos en la imagen, el cual es la "caja" en donde se encuentra el ultimo chat:
+
+<img width="297" alt="Screenshot 2023-06-20 at 17 19 28" src="https://github.com/not32code232/sofia/assets/134972894/45e609c8-01f4-4cfb-8efe-e6f9e0dff0ea"><br>
+
+- Función <code>buscar_chats()</code>, variable <code>chats_nuevos</code> tenemos la clase definida en <code>(By.CLASS_NAME, "_21S-L")</code> que equivale al elemento que vemos en la imagen, el cual hace referencia a si existe un chat nuevo:
+
+<img width="59" alt="Screenshot 2023-06-20 at 16 26 57" src="https://github.com/not32code232/sofia/assets/134972894/e8d9f2ae-0219-4848-b3c2-d12a0b93fb70"><br>
+
+- Función <code>buscar_chats()</code>, variable <code>chat_numero</code> tenemos la clase definida en <code>(By.CLASS_NAME, "_21S-L")</code> que equivale al elemento que vemos en la imagen, el cual es el numero del cual recibimos el mensaje:
+
+<img width="247" alt="Screenshot 2023-06-20 at 17 26 33" src="https://github.com/not32code232/sofia/assets/134972894/dfc58f63-4777-4c26-b74e-9e608c7c4876"><br>
+
 Dentro de <code>wp.py</code>:
 
-- Función <code>leer_ultimo_mensaje()</code>, variable <code>element_box_message</code> tenemos la clase definida en <code>(By.CLASS_NAME, "ItfyB")</code> que equivale al elemento que vemos en la imagen.
+- Función <code>leer_ultimo_mensaje()</code>, variable <code>element_box_message</code> tenemos la clase definida en <code>(By.CLASS_NAME, "ItfyB")</code> que equivale al elemento que vemos en la imagen, el cual es la "caja" en donde se encuentra el ultimo mensaje:
 
-<img width="100" alt="Screenshot 2023-06-20 at 16 26 57" src="https://github.com/not32code232/sofia/assets/134972894/6104b4a0-1e85-45ec-b76d-c21253d7154e">
+<img width="312" alt="Screenshot 2023-06-20 at 17 06 34" src="https://github.com/not32code232/sofia/assets/134972894/3b3fbede-a923-4b67-80db-d50bd6b117c3"><br>
 
-<br>
-
-- Función <code>leer_ultimo_mensaje()</code>, variable <code>element_message</code> tenemos la clase definida en <code>(By.CLASS_NAME, "_21Ahp")</code> que equivale al elemento que vemos en la imagen.
+- Función <code>leer_ultimo_mensaje()</code>, variable <code>element_message</code> tenemos la clase definida en <code>(By.CLASS_NAME, "_21Ahp")</code> que equivale al elemento que vemos en la imagen, el cual corresponde al contenido del mensaje:
   
-<img width="298" alt="Screenshot 2023-06-20 at 16 39 30" src="https://github.com/not32code232/sofia/assets/134972894/1180e4fc-b67d-4146-90df-ef289be03cdd">
+<img width="312" alt="Screenshot 2023-06-20 at 17 08 19" src="https://github.com/not32code232/sofia/assets/134972894/2d960a24-cc4a-4085-b213-611fb55edce2"><br>
 
-<br>
-
-- Función <code>buscar_chat()</code>, variable <code>cancel</code> tenemos la clase definida en <code>(By.CLASS_NAME, "-Jnba")</code> que equivale al elemento que vemos en la imagen.
+- Función <code>buscar_chat()</code>, variable <code>cancel</code> tenemos la clase definida en <code>(By.CLASS_NAME, "-Jnba")</code> que equivale al elemento que vemos en la imagen:
   
-<img width="330" alt="Screenshot 2023-06-20 at 16 42 42" src="https://github.com/not32code232/sofia/assets/134972894/2cd94671-0b89-42d2-afeb-a012d82001b7">
+<img width="330" alt="Screenshot 2023-06-20 at 16 42 42" src="https://github.com/not32code232/sofia/assets/134972894/2cd94671-0b89-42d2-afeb-a012d82001b7"><br>
 
-<br>
+Dentro de <code>wpEdge.py</code> se hacen referencia a los mismos elementos **pero NO poseen las mismas clases**, el proceso de verificar es el mismo que <code>wp.py</code> solo que el nombre de las clases sera distinto.
 
 <hr>
 
