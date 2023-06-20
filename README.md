@@ -181,9 +181,9 @@ Para facilitar el proceso de actualización de las mismas se deja una referencia
 
 De haber cambiado alguna de estas clases seguiremos con el proceso que explicaremos más adelante. 
 
-A continuación el nombre de la función y que elemento llama:
+#### A continuación el nombre de la función y que elemento llama:
 
-Dentro de <code>mani.py</code>:
+**Dentro de <code>mani.py</code>:**
 
 - Función <code>buscar_chats()</code>, variable <code>chats</code> tenemos la clase definida en <code>(By.CLASS_NAME, "_8nE1Y")</code> que equivale al elemento que vemos en la imagen, el cual es la "caja" en donde se encuentra el ultimo chat:
 
@@ -197,7 +197,7 @@ Dentro de <code>mani.py</code>:
 
 <img width="247" alt="Screenshot 2023-06-20 at 17 26 33" src="https://github.com/not32code232/sofia/assets/134972894/dfc58f63-4777-4c26-b74e-9e608c7c4876"><br>
 
-Dentro de <code>wp.py</code>:
+**Dentro de <code>wp.py</code>:**
 
 - Función <code>leer_ultimo_mensaje()</code>, variable <code>element_box_message</code> tenemos la clase definida en <code>(By.CLASS_NAME, "ItfyB")</code> que equivale al elemento que vemos en la imagen, el cual es la "caja" en donde se encuentra el ultimo mensaje:
 
@@ -212,6 +212,27 @@ Dentro de <code>wp.py</code>:
 <img width="330" alt="Screenshot 2023-06-20 at 16 42 42" src="https://github.com/not32code232/sofia/assets/134972894/2cd94671-0b89-42d2-afeb-a012d82001b7"><br>
 
 Dentro de <code>wpEdge.py</code> se hacen referencia a los mismos elementos **pero NO poseen las mismas clases**, el proceso de verificar es el mismo que <code>wp.py</code> solo que el nombre de las clases sera distinto.
+
+#### Actualizar clase
+
+Este proceso es el mismo para cada uno de los elementos de WhatsApp, en este ejemplo lo haremos con el elemento <code>cancel</code> de la funcion <code>buscar_chat()</code>:
+
+Veamos los pasos:
+
+1. Abierta la ventana de WhatsApp web, ingresamos / abrimos DevTools. 
+En el caso de Chrome las DevTools [tutorial aquí](https://developer.chrome.com/docs/devtools/open/) y en el caso de Edge [tutorial aqui](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview).
+
+3. Hacemos click en el icono de flecha que vemos en la imagen:
+
+<img width="387" alt="Screenshot 2023-06-20 at 17 55 32" src="https://github.com/not32code232/sofia/assets/134972894/aa8ef43c-6bbf-4d18-92fe-12ce83ac8750"><br>
+
+4. Buscamos el elemento que queremos actualizar teniendo en cuenta la guía anterior.
+
+5. Encontrado el elemento debemos ver que clase posee el mismo.
+
+6. Con la clase que tiene este elemento ahora, debemos copiar ese valor de clase y pegarlo en nuestro código actualizado.
+
+7. Verificar que esta actualización haya sido correcta corriendo el software nuevamente. De ser correcta la actualización de estas clases, no habrán problemas, de lo contrario seguirá fallando por motivo de que no actualizamos correctamente la clase.
 
 <hr>
 
