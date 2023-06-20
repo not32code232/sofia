@@ -170,6 +170,8 @@ Si este es el caso, aplicaremos lo del apartado [ACTUALIZAR CLASES WHATSAPP](#ac
 2 - En base a lo anterior, teniendo en cuenta que **NO es recurrente** el error de elemento no encontrado, debemos verificar en los email que Sofia envía para chequear en qué proceso hemos tenido error, ya que este no es porque WhatsApp haya cambiado sus clases de los elementos, sino porque la plataforma ha cambiado de lugar un elemento que utiliza Sofía o ha renombrado uno de ellos.
 Si es este el caso, debemos verificar la clase o el xPath que tine el elemento que utilizamos en ese proceso para poder actualizar en donde sea necesario.
 
+<hr>
+
 ### ACTUALIZAR CLASES WHATSAPP
 
 Para facilitar el proceso de actualización de las mismas se deja una referencia de dónde y qué clase corresponde actualmente a cada elemento que se utiliza desde WhatsApp para poder comprobar si ha cambiado alguna de estas. 
