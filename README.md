@@ -228,7 +228,11 @@ En el caso de Chrome las DevTools [tutorial aquí](https://developer.chrome.com/
 
 4. Buscamos el elemento que queremos actualizar teniendo en cuenta la guía anterior.
 
+<img width="161" alt="Screenshot 2023-06-20 at 18 01 57" src="https://github.com/not32code232/sofia/assets/134972894/18244223-b7e2-46af-9a3b-e1e3d06e0af8"><br>
+
 5. Encontrado el elemento debemos ver que clase posee el mismo.
+
+<img width="387" alt="Screenshot 2023-06-20 at 18 01 43" src="https://github.com/not32code232/sofia/assets/134972894/7a0f25ed-0b05-48a6-84a3-b0fa6d29b1a7"><br>
 
 6. Con la clase que tiene este elemento ahora, debemos copiar ese valor de clase y pegarlo en nuestro código actualizado.
 
