@@ -12,6 +12,7 @@ Automatizar el proceso que se realiza entre el jugador, cajero y plataforma acel
 
 - [FLUJO COMPLETO](#flujo-completo)
 - [STACK TECNOLOGICO](#stack-tecnologico)
+- [OBSERVACIONES Y RECOMENDACIONES](#observaciones-y-recomendaciones)
 - [COMANDOS SUPERADMINISTRADOR](#comandos-superadministrador)
 - [ROL SUPERADMINISTRADOR / PROPIETARIO](#rol-superadministrador--propietario)
 - [COMANDOS ADMINISTRADOR](#comandos-administrador)
@@ -44,6 +45,17 @@ El proyecto se construye utilizando las siguientes tecnologías:
 - [Numpy](https://numpy.org/)
 
 Conociendo las bases de cada una de estas podremos desarrollar, corregir o modificar el mismo con mayor entendimiento. Para este entendimiento se debe tener en cuenta el flujo general.
+
+<hr>
+
+### OBSERVACIONES Y RECOMENDACIONES
+
+El bot fue desarrollado desde un principio para que funcione en en UN SOLO PANEL con UNA SOLA BASE DE DATOS y UN SOLO NÚMERO DE WHATSAPP, todo corriendo y funcionando en UN SOLO SERVIDOR.
+Esto mismo debido a las siguientes razones: 
+- Seguridad, al tener diversificado cada cliente que use el bot en un solo servidor, con su propia base de datos y su propio número de teléfono, se minimiza al máximo el riesgo extendido. Es decir, si existe algún tipo de problema externo, se da de baja el servidor, número, y base de datos afectado, y listo. Este no afecta a la red de jugadores que se posea ya que funciona sólo como un asistente, y se puede volver a levantar sin problemas en otro servidor, con otra base de datos, otro número de teléfono y el mismo panel de plataforma. Sin mayores inconvenientes, aunque cabe aclarar de que si no se hizo una copia de la base de datos antes de llevarlo o moverlo a otro servidor estos datos se perderán ya que estos solo se encuentran en el mismo server, la solución a esto es de que antes de dar de baja o borrar, se debe hacer una copia de la base de datos de forma manual.
+- Su diseño está hecho para que corra UN solo bot (no más de uno) en un mismo servidor, con un número de teléfono y una base de datos. Si se corren más de un bot, puede ser que funcione sin problemas, pero es muy probable que aparezcan errores inesperados y el funcionamiento del mismo se rompa.
+
+A cada cliente que se le venda el servicio del bot, se le debe contratar un servidor propio, que contenga su propia base de datos, y se vincule al número de whatsapp proporcionado por el mismo cliente. De esta forma, se aseguran de que el bot va a correr de forma óptima, y que exista una independencia total entre clientes, lo que hará mucho más fácil el control y administración del servicio. El número de Whatsapp será proporcionado por el cliente, y el servidor, base de datos y panel por el dueño del bot. De esta forma se tendrá un control total sobre los movimientos realizados en el mismo, y sobre todo el código fuente que deberá estar corriendo en la consola del servidor.
 
 <hr>
 
