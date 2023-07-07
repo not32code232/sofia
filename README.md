@@ -23,7 +23,6 @@ Automatizar el proceso que se realiza entre el jugador, cajero y plataforma acel
 - [ACTUALIZAR CLASES WHATSAPP](#actualizar-clases-whatsapp)
 - [PROCESO LEVANTAR Y CORRER PROYECTO](#proceso-levantar-y-correr-proyecto)
 
-
 <hr>
 
 ### FLUJO COMPLETO
