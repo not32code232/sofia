@@ -333,4 +333,14 @@ Quedandonos con una vista de la siguiente forma:
 
 <img width="500" alt="Screenshot 2023-06-06 at 10 58 21" src="https://github.com/not32code232/sofia/assets/134972894/9acd94a5-fb1d-46c7-a7fd-f8185af1b911"><br>
 
+**CASO GAMA PLANETA:**
+
+**CHECKEAR SI ESTE PASO LO AUTOMATIZAMOS** - Todos los paneles de la gama de planeta, debe que existir un usuario que empiece con la letra A (para que este al principio) y tiene que cargarse al config.py en la variable user_config.
+- Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
+- **IMPORTANTE**, en esta gama NO debe haber agentes en el panel, solo debe haber jugadores,si este tiene agentes puede no funcionar.
+
+**GAMA JUGALO:**
+- Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
+- Seleccionar si no lo esta, el boton "Todos" en el area de la tabla de usuarios.
+
 16. ¡Listo para trabajar! Ahora solo queda hacer unas breves pruebas para comprobar que todo esté correctamente funcionando y ya podemos dejarlo corriendo. De lo contrario deberemos volver a los pasos o identificar el error para hacerlo que funcione.
