@@ -358,7 +358,7 @@ Quedandonos con una vista de la siguiente forma:
 
 **CHECKEAR SI ESTE PASO LO AUTOMATIZAMOS** - Todos los paneles de la gama de planeta, debe que existir un usuario que empiece con la letra A (para que este al principio) y tiene que cargarse al config.py en la variable user_config.
 - Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
-- **IMPORTANTE**, en esta gama NO debe haber agentes en el panel, solo debe haber jugadores,si este tiene agentes puede no funcionar.
+- **IMPORTANTE**, en esta gama NO debe haber agentes en el panel, solo debe haber jugadores, si este tiene agentes puede no funcionar.
 
 **GAMA JUGALO:**
 - Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
