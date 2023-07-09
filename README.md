@@ -281,7 +281,7 @@ Para poder iniciar el proyecto correctamente, previamente necesitamos de ciertos
 - nombre de cuenta a transferir
 - user config (solo gama planeta, este nombre de usuario debe comenzar con A)
 
-  **SCREENSHOT DE UN COFIG LISTO**
+![WhatsApp Image 2023-07-09 at 11 50 59](https://github.com/not32code232/sofia/assets/134972894/147bb3ca-23a6-417c-a79d-024ab6a4d632)
 
 5. Descargamos de la siguiente dirección [Apache Friends](https://www.apachefriends.org/index.html) la última versión de XAMPP para windows, esto nos permitirá tener nuestra base de datos corriendo.
 
@@ -336,7 +336,7 @@ Los grupos a crear son los siguientes:
 
 **IMPORTANTE**, la creación de estos grupos deberá ser tal cual se describen.
 
-**CASO PULPOBET:**
+**GAMA PULPOBET:**
 
 16. Abrimos una nueva consola (terminal) ubicándonos nuevamente en la raíz del proyecto y corremos el archivo <code>main.py</code> con el comando <code>python supermain.py</code>. Con este se nos abrirá una ventana con la plataforma donde deberemos realizar lo siguiente:
 
@@ -349,7 +349,7 @@ Quedandonos con una vista de la siguiente forma:
 
 <img width="500" alt="Screenshot 2023-06-06 at 10 58 21" src="https://github.com/not32code232/sofia/assets/134972894/9acd94a5-fb1d-46c7-a7fd-f8185af1b911"><br>
 
-**CASO GAMA PLANETA:**
+**GAMA PLANETA:**
 
 **CHECKEAR SI ESTE PASO LO AUTOMATIZAMOS** - Todos los paneles de la gama de planeta, debe que existir un usuario que empiece con la letra A (para que este al principio) y tiene que cargarse al config.py en la variable user_config.
 - Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
