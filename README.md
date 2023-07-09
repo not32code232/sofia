@@ -140,7 +140,7 @@ Las vistas de los canales serán del tipo:
 
 ### IDENTIFICAR ERRORES Y REPORTE
 
-Este apartado ha sido simplificado de manera que se puedan identificar de manera rápida y efectiva los errores y ver el estado del software accediendo al canal de WhatsApp en el cual Sofia enviará estas alertas. Los detalles de error y procesos de harán via email para mayor organización y proligidad.
+Este apartado ha sido simplificado de manera que se puedan identificar de manera rápida y efectiva los errores y ver el estado del software accediendo al canal de WhatsApp en el cual Sofia enviará estas alertas.
 
 **Funcionalidad y uso:**
 
