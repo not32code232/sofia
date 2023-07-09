@@ -322,11 +322,12 @@ Es importante que NO cerremos la consola el cual corrimos ese comando y NO cance
 
 **CASO PULPOBET:**
 
-15. Abrimos una nueva consola (terminal) ubicándonos nuevamente en la raíz del proyecto y corremos el archivo <code>main.py</code> con el comando <code>python main.py</code>. Con este se nos abrirá una ventana con la plataforma donde deberemos realizar lo siguiente:
+15. Abrimos una nueva consola (terminal) ubicándonos nuevamente en la raíz del proyecto y corremos el archivo <code>main.py</code> con el comando <code>python supermain.py</code>. Con este se nos abrirá una ventana con la plataforma donde deberemos realizar lo siguiente:
 
 - En la parte superior donde vemos las páginas, seleccionar modo vista con la mayor cantidad disponible, ejemplo 50.
 - Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
 - Dejamos en primer plano esta ventana en pantalla completa.
+- Controlamos de tener habilitado el "Incluir Bloqueados".
 
 Quedandonos con una vista de la siguiente forma:
 
