@@ -266,15 +266,22 @@ En el caso de Chrome las DevTools [tutorial aquí](https://developer.chrome.com/
 
 3. Descomprimimos nuestra carpeta del proyecto dejándola disponible en escritorio para facilitar el acceso.
 
-4. **<p style="color:red;">Configuramos datos iniciales:</p>** ------------------------------------------
+4. Configuramos datos iniciales:
 
-Para poder iniciar el proyecto correctamente, previamente necesitamos de ciertos datos iniciales los cuales agregaremos en el archivo que se encuentra dentro del proyecto con el nombre <code>config.py</code> donde veremos lo siguiente y **completaremos con nuestros datos aquello que se encuentre en negritas**:
+Para poder iniciar el proyecto correctamente, previamente necesitamos de ciertos datos iniciales los cuales agregaremos en el archivo que se encuentra dentro del proyecto con el nombre <code>config.py</code> donde veremos lo siguiente y completaremos con nuestros datos aquello que se nos pide en este archivo:
 
-- num administrador
+- num administrador 
 - num superadministrador
 - usuario y contrasena panel plataforma
 - nombre de bot
 - datos de transferencia
+- url de la plataforma
+- cbu de cuenta a transferir
+- alias de cuenta a transferir
+- nombre de cuenta a transferir
+- user config (solo gama planeta, este nombre de usuario debe comenzar con A)
+
+  **SCREENSHOT DE UN COFIG LISTO**
 
 5. Descargamos de la siguiente dirección [Apache Friends](https://www.apachefriends.org/index.html) la última versión de XAMPP para windows, esto nos permitirá tener nuestra base de datos corriendo.
 
