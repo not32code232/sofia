@@ -281,6 +281,8 @@ Para poder iniciar el proyecto correctamente, previamente necesitamos de ciertos
 - nombre de cuenta a transferir
 - user config (solo gama planeta, este nombre de usuario debe comenzar con A)
 
+Ejemplo de <code>config.py</code> a continuacion:
+
 <img width="500" src="https://github.com/not32code232/sofia/assets/134972894/147bb3ca-23a6-417c-a79d-024ab6a4d632"><br>
 
 5. Descargamos de la siguiente dirección [Apache Friends](https://www.apachefriends.org/index.html) la última versión de XAMPP para windows, esto nos permitirá tener nuestra base de datos corriendo.
