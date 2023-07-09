@@ -270,7 +270,6 @@ En el caso de Chrome las DevTools [tutorial aquí](https://developer.chrome.com/
 
 Para poder iniciar el proyecto correctamente, previamente necesitamos de ciertos datos iniciales los cuales agregaremos en el archivo que se encuentra dentro del proyecto con el nombre <code>config.py</code> donde veremos lo siguiente y completaremos con nuestros datos aquello que se nos pide en este archivo:
 
-- num administrador 
 - num superadministrador
 - usuario y contrasena panel plataforma
 - nombre de bot
@@ -284,6 +283,10 @@ Para poder iniciar el proyecto correctamente, previamente necesitamos de ciertos
 Ejemplo de <code>config.py</code> a continuacion:
 
 <img width="500" src="https://github.com/not32code232/sofia/assets/134972894/147bb3ca-23a6-417c-a79d-024ab6a4d632"><br>
+
+Como ultimo dato de configuración inicial se debe agregar el número de ADMINISTRADOR dentro del archivo <code>contactos_autorizados.txt</code> dentro de la carpeta <code>resource</code> del proyecto tal cual como figura en WhatsApp, ejemplo abajo.
+
+<img width="400" alt="Screenshot 2023-07-09 at 12 02 28" src="https://github.com/not32code232/sofia/assets/134972894/2c866001-27d9-44ae-be78-6af9302707c0">
 
 5. Descargamos de la siguiente dirección [Apache Friends](https://www.apachefriends.org/index.html) la última versión de XAMPP para windows, esto nos permitirá tener nuestra base de datos corriendo.
 
