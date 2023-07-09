@@ -320,7 +320,14 @@ Es importante que NO cerremos la consola el cual corrimos ese comando y NO cance
 
 <i>Es importante que NO cerremos la consola el cual corrimos ese comando y NO cancelamos el proceso.</i>
 
-15. Para que el bot de avisos a los grupos, deberemos crearlos de forma manual, en este grupo debe ser miembro el numero que se posee el bot y el administrador. Los grupos a crear son los siguientes:
+15. Para que el bot de avisos a los canales, deberemos crearlos de forma manual, en este canal debe ser miembro el numero que se posee el bot y el administrador.
+    
+- Creamos los grupos desde el número que posee el bot tal cual describimos abajo.
+- Agregamos como miembro al administrador.
+- Configuramos en el grupo que solo puede enviar mensajes el creador del mismo, o sea el bot.
+- Silenciamos el grupo de reportes para que no interrumpa al administrador ya que este solo es de lectura.
+
+Los grupos a crear son los siguientes:
 
 - SOLICITUD DE CARGA
 - SOLICITUD DE DESCARGA
