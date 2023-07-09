@@ -320,9 +320,18 @@ Es importante que NO cerremos la consola el cual corrimos ese comando y NO cance
 
 <i>Es importante que NO cerremos la consola el cual corrimos ese comando y NO cancelamos el proceso.</i>
 
+15. Para que el bot de avisos a los grupos, deberemos crearlos de forma manual, en este grupo debe ser miembro el numero que se posee el bot y el administrador. Los grupos a crear son los siguientes:
+
+- SOLICITUD DE CARGA
+- SOLICITUD DE DESCARGA
+- SOLICITUD ATENCION AL CLINETE
+- SOFIA REPORTES
+
+**IMPORTANTE**, la creación de estos grupos deberá ser tal cual se describen.
+
 **CASO PULPOBET:**
 
-15. Abrimos una nueva consola (terminal) ubicándonos nuevamente en la raíz del proyecto y corremos el archivo <code>main.py</code> con el comando <code>python supermain.py</code>. Con este se nos abrirá una ventana con la plataforma donde deberemos realizar lo siguiente:
+16. Abrimos una nueva consola (terminal) ubicándonos nuevamente en la raíz del proyecto y corremos el archivo <code>main.py</code> con el comando <code>python supermain.py</code>. Con este se nos abrirá una ventana con la plataforma donde deberemos realizar lo siguiente:
 
 - En la parte superior donde vemos las páginas, seleccionar modo vista con la mayor cantidad disponible, ejemplo 50.
 - Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
@@ -343,4 +352,4 @@ Quedandonos con una vista de la siguiente forma:
 - Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
 - Seleccionar si no lo esta, el boton "Todos" en el area de la tabla de usuarios.
 
-16. ¡Listo para trabajar! Ahora solo queda hacer unas breves pruebas para comprobar que todo esté correctamente funcionando y ya podemos dejarlo corriendo. De lo contrario deberemos volver a los pasos o identificar el error para hacerlo que funcione.
+17. ¡Listo para trabajar! Ahora solo queda hacer unas breves pruebas para comprobar que todo esté correctamente funcionando y ya podemos dejarlo corriendo. De lo contrario deberemos volver a los pasos o identificar el error para hacerlo que funcione.
