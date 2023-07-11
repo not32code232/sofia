@@ -270,15 +270,15 @@ En el caso de Chrome las DevTools [tutorial aquí](https://developer.chrome.com/
 
 Para poder iniciar el proyecto correctamente, previamente necesitamos de ciertos datos iniciales los cuales agregaremos en el archivo que se encuentra dentro del proyecto con el nombre <code>config.py</code> donde veremos lo siguiente y completaremos con nuestros datos aquello que se nos pide en este archivo:
 
-- num superadministrador
-- usuario y contrasena panel plataforma
-- nombre de bot
-- datos de transferencia
-- url de la plataforma
-- cbu de cuenta a transferir
-- alias de cuenta a transferir
-- nombre de cuenta a transferir
-- user config (solo gama planeta, este nombre de usuario debe comenzar con A)
+- Numero superadministrador.
+- Usuario y contrasena panel plataforma.
+- Nombre de bot.
+- Datos de transferencia.
+- URL de la plataforma.
+- CBU de cuenta a transferir.
+- Alias de cuenta a transferir.
+- Nombre de cuenta a transferir.
+- User config (solo gama planeta, este nombre de usuario debe comenzar con la letra A, **este usuario deberá ser creado si no existe uno que inicie con la letra A**)
 
 Ejemplo de <code>config.py</code> a continuacion:
 
