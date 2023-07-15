@@ -262,6 +262,8 @@ En el caso de Chrome las DevTools [tutorial aquí](https://developer.chrome.com/
 
 1. Instalar en la máquina la última versión de Python (https://www.python.org/downloads/). Al momento de instalar debemos verificar que tengamos checkeado la opción <code>Add python.exe to PATH</code> para que esto pueda funcionar de forma correcta.
 
+<img width="500" alt="Screenshot 2023-07-15 at 16 15 43" src="https://github.com/not32code232/sofia/assets/134972894/99cb100c-1d23-4039-856e-73b2d45f70da">
+
 2. Abrimos la terminal de nuestro equipo y en la carpeta raíz correremos el siguiente comando para instalar las dependencias necesarias: primero ejecutamos <code>pip install pip</code> y luego <code>pip install selenium pandas numpy mysql-connector-python unidecode pyautogui</code>.
 
 3. Descomprimimos nuestra carpeta del proyecto dejándola disponible en escritorio para facilitar el acceso.
