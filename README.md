@@ -260,9 +260,9 @@ En el caso de Chrome las DevTools [tutorial aquí](https://developer.chrome.com/
 
 **Paso a paso:**
 
-1. Instalar en la máquina la última versión de Python (https://www.python.org/downloads/).
+1. Instalar en la máquina la última versión de Python (https://www.python.org/downloads/). Al momento de instalar debemos verificar que tengamos checkeado la opción <code>Add python.exe to PATH</code> para que esto pueda funcionar de forma correcta.
 
-2. Abrimos la terminal de nuestro equipo y en la carpeta raíz correremos el siguiente comando para instalar las dependencias necesarias: <code>pip install selenium pandas numpy mysql-connector-python unidecode pyautogui</code>.
+2. Abrimos la terminal de nuestro equipo y en la carpeta raíz correremos el siguiente comando para instalar las dependencias necesarias: primero ejecutamos <code>pip install pip</code> y luego <code>pip install selenium pandas numpy mysql-connector-python unidecode pyautogui</code>.
 
 3. Descomprimimos nuestra carpeta del proyecto dejándola disponible en escritorio para facilitar el acceso.
 
@@ -356,7 +356,7 @@ Quedandonos con una vista de la siguiente forma:
 
 **GAMA PLANETA:**
 
-**CHECKEAR SI ESTE PASO LO AUTOMATIZAMOS** - Todos los paneles de la gama de planeta, debe que existir un usuario que empiece con la letra A (para que este al principio) y tiene que cargarse al config.py en la variable user_config.
+- Todos los paneles de la gama de planeta, debe que existir un usuario que empiece con la letra A (para que este al principio) y tiene que cargarse al config.py en la variable user_config. **DE NO EXISTIR USUARIO QUE COMIENCE CON LETRA "A", SE DEBERA CREAR UNO**.
 - Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
 - **IMPORTANTE**, en esta gama NO debe haber agentes en el panel, solo debe haber jugadores, si este tiene agentes puede no funcionar.
 
