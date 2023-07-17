@@ -365,4 +365,4 @@ Quedandonos con una vista de la siguiente forma:
 - Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
 - Seleccionar si no lo esta, el boton "Todos" en el area de la tabla de usuarios.
 
-17. ¡Listo para trabajar! Ahora solo queda hacer unas breves pruebas para comprobar que todo esté correctamente funcionando y ya podemos dejarlo corriendo. De lo contrario deberemos volver a los pasos o identificar el error para hacerlo que funcione.
+15. ¡Listo para trabajar! Ahora solo queda hacer unas breves pruebas para comprobar que todo esté correctamente funcionando y ya podemos dejarlo corriendo. De lo contrario deberemos volver a los pasos o identificar el error para hacerlo que funcione.
