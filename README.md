@@ -298,7 +298,9 @@ Como ultimo dato de configuración inicial se debe agregar el número de ADMINIS
 
 <img width="500" alt="Screenshot 2023-06-06 at 10 33 55" src="https://github.com/not32code232/sofia/assets/134972894/fcf8f289-9f7a-4907-8df4-fb56f1017e3c"><br>
 
-7. Ingresamos dentro del navegador a la ruta <code>localhost/phpmyadmin</code> en donde nos llevará al panel de administrador de la base de datos PHP, en esta deberemos importar el archivo que se encuentra dentro de la carpeta <code>resource</code> con la extensión de <code>.sql</code>.
+7. Ingresamos dentro del navegador a la ruta <code>localhost/phpmyadmin</code> (o ingresando directamente a <code>localhost</code> y buscando la sección de <code>phpmyadmin</code>) en donde nos llevará al panel de administrador de la base de datos PHP.
+
+Deberemos crear una nueva tabla con el nombre <code>sofia.chat</code>, luego de eso importamos el archivo que se encuentra dentro de la carpeta <code>resource</code> con la extensión de <code>.sql</code>.
 
 <img width="500" alt="Screenshot 2023-06-06 at 10 45 14" src="https://github.com/not32code232/sofia/assets/134972894/2a443d11-e2a8-4ec8-8b00-a2417ea9697b"><br>
 
@@ -320,14 +322,7 @@ Como ultimo dato de configuración inicial se debe agregar el número de ADMINIS
 
 12. Una vez descargados los drivers los ubicamos a ambos en la carpeta <code>driver</code> del proyecto, cada uno con su nombre <code>chromedriver</code> y <code>edgedriver</code>.
 
-13. Abrir la terminal (cmd) y ubicarnos en la carpeta base donde tenemos el proyecto y correr el archivo <code>KeepSession.py</code> con el comando <code>python KeepSession.py</code>, esperamos a que se nos abra el Chrome y se cargue WhatsApp Web en donde tendremos que escanear para poder ingresar con el número que será el que reciba a los jugadores, administradores y envíe informes. 
-Es importante que NO cerremos la consola el cual corrimos ese comando y NO cancelamos el proceso. Una vez ingresado nuestro WhatsApp, dejar así tal cual sin tocar nada más ni ingresar a ningún chat.
-
-14. Repetimos el paso anterior solo que en vez de con el archivo <code>KeepSession.py</code>, será con el archivo <code>KeepSessionEdge.py</code> corriendo el comando <code>python KeepSessionEdge.py</code>. 
-
-<i>Es importante que NO cerremos la consola el cual corrimos ese comando y NO cancelamos el proceso.</i>
-
-15. Para que el bot de avisos a los canales, deberemos crearlos de forma manual, en este canal debe ser miembro el numero que se posee el bot y el administrador.
+13. Para que el bot de avisos a los canales, deberemos crearlos de forma manual, en este canal debe ser miembro el numero que se posee el bot y el administrador.
     
 - Creamos los grupos desde el número que posee el bot tal cual describimos abajo.
 - Agregamos como miembro al administrador.
@@ -343,9 +338,13 @@ Los grupos a crear son los siguientes:
 
 **IMPORTANTE**, la creación de estos grupos deberá ser tal cual se describen.
 
+14. Abrimos una nueva consola (terminal) ubicándonos nuevamente en la raíz del proyecto y corremos el archivo <code>supermain.py</code> con el comando <code>python supermain.py</code>.
+
+Al ejecutar este archivo se nos abrirán dos navegadores, uno por vez, en donde nos pedirá escanear el QR de WhatsApp para ingresar con el número que corresponde, cuando escaneamos el mismo, volveremos a la consola a presionar ENTER para continuar con el siguiente navegador, escanear el QR y nuevamente presionar ENTER dando paso a la apertura de la plataforma.
+
 **GAMA PULPOBET:**
 
-16. Abrimos una nueva consola (terminal) ubicándonos nuevamente en la raíz del proyecto y corremos el archivo <code>main.py</code> con el comando <code>python supermain.py</code>. Con este se nos abrirá una ventana con la plataforma donde deberemos realizar lo siguiente:
+Abierta la ventana con la plataforma una vez ejecutado <code>supermain.py</code>, deberemos realizar lo siguiente:
 
 - En la parte superior donde vemos las páginas, seleccionar modo vista con la mayor cantidad disponible, ejemplo 50.
 - Con las teclas Ctrl + Menos (-) quitaremos zoom hasta el nivel 33% o cercano.
